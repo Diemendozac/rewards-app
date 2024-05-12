@@ -1,5 +1,4 @@
 // index.tsx
-'use client'
 import HomePage from "@/app/index/page";
 import { GlobalContextProvider } from "./Context/store";
 
