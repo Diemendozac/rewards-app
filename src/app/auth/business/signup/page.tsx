@@ -59,7 +59,7 @@ export default function SignUpPage() {
         </div>
         <div className="space-y-2">
           <Label htmlFor="document-type">Document Type</Label>
-          <Select id="document-type">
+          <Select>
             <SelectTrigger>
               <SelectValue placeholder="Select document type" />
             </SelectTrigger>
@@ -95,7 +95,7 @@ export default function SignUpPage() {
         <div className="grid grid-cols-2 gap-4">
           <div className="space-y-2">
             <Label htmlFor="country-code">Country Code</Label>
-            <Select id="country-code">
+            <Select>
               <SelectTrigger>
                 <SelectValue placeholder="+1" />
               </SelectTrigger>
