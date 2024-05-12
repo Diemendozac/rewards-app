@@ -1,6 +1,6 @@
 // index.tsx
-import HomePage from "@/app/index/page";
 import { GlobalContextProvider } from "./Context/store";
+import HomePage from "./initial/page";
 
 
 export default function Home() {

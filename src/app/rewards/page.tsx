@@ -24,6 +24,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { DropdownMenuTrigger, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuItem, DropdownMenuContent, DropdownMenu } from "@/components/ui/dropdown-menu"
 import { CardTitle, CardHeader, CardContent, Card } from "@/components/ui/card"
+import Image from 'next/image'
 
 
 
@@ -101,7 +102,7 @@ export default function RewardsPage() {
                 size="icon"
                 variant="ghost"
               >
-                <img
+                <Image
                   alt="Avatar"
                   className="rounded-full"
                   height="32"
@@ -226,7 +227,7 @@ export default function RewardsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
               <Card>
                 <CardContent className="flex flex-col items-center gap-4">
-                  <img
+                  <Image
                     alt="Reward 1"
                     className="rounded-full"
                     height={120}
@@ -247,7 +248,7 @@ export default function RewardsPage() {
               </Card>
               <Card>
                 <CardContent className="flex flex-col items-center gap-4">
-                  <img
+                  <Image
                     alt="Reward 2"
                     className="rounded-full"
                     height={120}
@@ -268,7 +269,7 @@ export default function RewardsPage() {
               </Card>
               <Card>
                 <CardContent className="flex flex-col items-center gap-4">
-                  <img
+                  <Image
                     alt="Reward 3"
                     className="rounded-full"
                     height={120}
