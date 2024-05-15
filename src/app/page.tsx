@@ -1,12 +1,15 @@
-// index.tsx
-import { GlobalContextProvider } from "./Context/store";
-import HomePage from "./initial/page";
 
+// src/pages/_app.tsx
+import { AppProps } from 'next/app';
+import { AuthProvider } from '../app/Context/context';
+import '../styles/globals.css';
 
-export default function Home() {
+const Home = ({ Component, pageProps }: AppProps) => {
   return (
-    <GlobalContextProvider>
-      <HomePage></HomePage>
-    </GlobalContextProvider>
+    <AuthProvider>
+      <Component {...pageProps} />
+    </AuthProvider>
   );
-}
+};
+
+export default Home;

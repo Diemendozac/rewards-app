@@ -37,7 +37,7 @@ export default function HomePage() {
               Sign In
             </Link>
             <Link
-              className="rounded-md bg-gray-900 px-4 py-2 text-white hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 dark:bg-primary-500 dark:hover:bg-primary-600 dark:bg-gray-50"
+              className="rounded-md bg-gray-900 px-4 py-2 text-white hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 dark:bg-primary-500 dark:hover:bg-slate-700 dark:bg-slate-800"
               href="/select_account"
             >
               Sign Up
@@ -57,7 +57,7 @@ export default function HomePage() {
               </p>
               <div className="mt-8">
                 <Link
-                  className="rounded-md bg-gray-900 px-4 py-2 text-white hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 dark:bg-primary-500 dark:hover:bg-primary-600 dark:bg-gray-50"
+                  className="rounded-md bg-gray-900 px-4 py-2 text-white hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 dark:bg-primary-500 dark:hover:bg-slate-800 dark:bg-slate-900"
                   href="/rewards"
                 >
                   Join Now
